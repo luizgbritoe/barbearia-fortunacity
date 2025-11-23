@@ -211,7 +211,7 @@ footer a:hover {
 
 @media screen and (min-width: 768px) {
     main {
-        grid-template-columns: 1fr 75% 1fr;
+        grid-template-columns: 1fr 65% 1fr;
     }
 
     main img {
