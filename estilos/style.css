@@ -41,9 +41,6 @@ nav {
     background-color: var(--primaria);
     padding: 10px;
     margin-bottom: 10px;
-
-    position: sticky;
-    top: 0px;
 }
 
 nav ul {
@@ -164,7 +161,7 @@ main img {
 
 footer {
     background-color: var(--primaria);
-    padding: 5px;
+    padding: 10px;
     color: white;
     text-align: center;
 }
@@ -180,9 +177,25 @@ footer a:hover {
     color: var(--primaria-clara);
 }
 
+#localizacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 #localizacao h2 {
     color: var(--primaria);
     margin-bottom: 10px;
+    grid-column: 1 / -1;
+}
+
+.endereco, .horarios {
+    background-color: var(--fundo);
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 5px solid var(--primaria-clara);
 }
 
 @media screen and (min-width: 768px) {
