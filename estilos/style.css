@@ -100,10 +100,6 @@ main img {
     color: var(--primaria);
 }
 
-#quem-somos p {
-    text-align: justify;
-}
-
 #quem-somos .social {
     display: flex;
     justify-content: center;
